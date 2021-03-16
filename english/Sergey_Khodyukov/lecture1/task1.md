@@ -1,3 +1,3 @@
 # Homework 1 task1
 
-My homework is here!
+Hello World! This is my homework.

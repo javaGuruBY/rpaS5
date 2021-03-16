@@ -1,8 +1,8 @@
 Task _1_
 
-1— What are you doing here? — I am waiting for a friend. \n
-2— Does he speak French? — Yes, he speaks French well. \n
-3- Someone is knocking at the door. \n
+1— What are you doing here? — I am waiting for a friend.
+2— Does he speak French? — Yes, he speaks French well.
+3- Someone is knocking at the door.
 4- Don’t go into the classroom. The students are writing a dictation there.
 5- The man who is reading a book is our English teacher.
 6- Let’s go for a walk. It is not raining right now.

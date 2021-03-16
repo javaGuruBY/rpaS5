@@ -1,8 +1,8 @@
 ## Homework made by Cherednichenko Andrii
 
 Упражнение 1. Поставьте глаголы в скобках в Present Simple или Present Continuous.  
-1. — What are you doing here? — I am waiting for a friend.  
-2. — Does he speaks French? — Yes, he speaks French well.  
+1. —What are you doing here? — I am waiting for a friend.  
+2. —Does he speaks French? — Yes, he speaks French well.  
 3. Someone is knocking at the door.  
 4. Don’t go into the classroom. The students are writing a dictation there.  
 5. The man who reads a book is our English teacher.  
@@ -26,8 +26,8 @@
 
 ***
 Упражнение 3. Переведите на английский язык.
-1. - Where is Vadim? - He is playing tennis.
-2. - Does he play tennis well? - No, he plays tennis really bad.  
+1. -Where is Vadim? - He is playing tennis.
+2. -Does he play tennis well? - No, he plays tennis really bad.  
 3. I don't know person that talks with my mother.
 4. I often talks to my friend about our trip.  
 5. Andrew sing very well.  

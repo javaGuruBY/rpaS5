@@ -1,4 +1,4 @@
-package by.jrr.start;
+package by.jrr.start.lecture2_task3;
 
 class Subtraction {
     Subtraction(int a, int b) {

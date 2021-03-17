@@ -1,0 +1,22 @@
+#Придумать названия для следующих переменных:
+
+Количество кораблей в порту - shipsQuantity
+Счетчик целых чисел         - intCounter
+Первое число                - firstNum
+Ответ на вопрос             - questionAnswer
+Случайное число             - randomNum
+Генератор случайных чисел   - randomizer
+Цвет автомобиля             - carColor
+Скорость движения автомобиля - carSpeed
+Введеное число пользователем - inputNum
+Наибольшее число             - max
+Наименьшее число             - min
+Левая граница диапазона чисел  - leftRangeBoarder
+Правая граница диапазона чисел - rightRangeBoarder
+Загаданное пользователем число - hiddenNum
+Вариант ответа      - possibleAnswer
+Банковский счет     - bankAccount
+Банковский баланс   - bankBalance
+Кредитная карта     - creditCard
+Количество колес у велосипеда - wheelsQuantity
+Стоимость билета - ticketCost

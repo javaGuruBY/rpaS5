@@ -28,23 +28,23 @@
 
 ### Упражнение 3. Переведите на английский язык.
 
-1. — Где Вадим? — Он играет в теннис. 
-- Where's Vadim? - He's playing tennis.
-2. — Он хорошо играет в теннис? — Нет, он играет в теннис плохо. 
-- Does he play tennis well? - No, he plays tennis bad.
+1. — Где Вадим? — Он играет в теннис.    
+   — Where's Vadim? - He's playing tennis.
+2. — Он хорошо играет в теннис? — Нет, он играет в теннис плохо.  
+   — Does he play tennis well? - No, he plays tennis badly.
 3. Я не знаю человека, который разговаривает с моей мамой. 
-I don't know the man talking to my mum.
+    I don't know the man talking to my mum.
 4. Я часто разговариваю с моим другом о нашей поездке. 
-I often speak with my friend about our trip.
+    I often speak with my friend about our trip.
 5. Андрей поет очень хорошо. 
-Andrew sings very well.
+    Andrew sings very well.
 6. Слушайте. Кто-то поет в соседней комнате. 
-Listen. Somebody's singing in the next room.
+    Listen. Somebody's singing in the next room.
 7. Он не видит, что я на него смотрю. Он читает книгу. 
-He doesn't see that I'm looking at him. He's reading a book.
-8. Позвоните ему сейчас. Я думаю, что он не  спит.
-Call him now. I think he is not sleeping. 
+    He doesn't see that I'm looking at him. He's reading a book.
+8. Позвоните ему сейчас. Я думаю, что он не спит.
+    Call him now. I think he is not sleeping. 
 9. Посмотрите на человека, который стоит у окна. Это мой учитель английского языка. 
-Look at this man standing by the window. He's my English teacher.
+    Look at this man standing by the window. He's my English teacher.
 10. Джон на улице. Он моет машину.
-John is outdoors. He's washing a car.
+    John is outdoors. He's washing a car.

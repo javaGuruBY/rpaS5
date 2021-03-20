@@ -2,16 +2,11 @@ package by.jrr.start;
 
 public class Encoder {
 
-    private int code;
-    private char symbol;
-
-    public Encoder(int code){
-        this.code = code;
+    public int encode( char symbol) {
+        return symbol;
     }
 
-    public Encoder(char symbol){
-        this.symbol = symbol;
+    public char encode( int code) {
+        return (char)code;
     }
-
-
 }

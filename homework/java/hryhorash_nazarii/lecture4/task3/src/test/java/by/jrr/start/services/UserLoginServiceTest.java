@@ -45,8 +45,20 @@ public class UserLoginServiceTest {
         userLoginService.login(user,input);
         userLoginService.login(user,input);
         userLoginService.login(user,input);
-        userLoginService.login(user,input);
 
         Assert.assertTrue(user.getIsBlocked());
+    }
+
+    @Test
+    public void refreshTryToLogin(){
+        User user = new User("LOGIN", "PASSWORD");
+        String input1 = "incorrectPASSWORD";
+        userLoginService.login(user,input1);
+        userLoginService.login(user,input1);
+
+        String input2 = "PASSWORD";
+        userLoginService.login(user,input2);
+
+        Assert.assertEquals(3, user.getTryToLogin());
     }
 }

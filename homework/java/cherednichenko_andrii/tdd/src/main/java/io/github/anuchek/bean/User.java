@@ -3,15 +3,9 @@ package io.github.anuchek.bean;
 public class User {
     private String login;
     private String password;
-    private int loginAttempts;
+    private int loginAttempts = 3;
     private boolean blockesd;
 
-    public User(String login, String password, int loginAttempts, boolean blockesd) {
-        this.login = login;
-        this.password = password;
-        this.loginAttempts = loginAttempts;
-        this.blockesd = blockesd;
-    }
 
     public User() {
     }

@@ -17,4 +17,8 @@ public class Human {
     public int getAge() {
         return age;
     }
+    
+    public void greet() {
+        System.out.println("Hi! My name is " + this.getName() + ", and i'm " + this.getAge() + " years old.");
+    }
 }

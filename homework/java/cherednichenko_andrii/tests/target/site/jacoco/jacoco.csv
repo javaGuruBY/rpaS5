@@ -1,0 +1,5 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+tests,io.github.anuchek,Main,4,0,0,0,2,0,2,0,2,0
+tests,io.github.anuchek.service,Calculator,0,15,0,0,0,4,0,4,0,4
+tests,io.github.anuchek.tests,TestRunner,6,0,0,0,2,0,2,0,2,0
+tests,io.github.anuchek.tests,CalculatorTests,3,0,0,0,1,0,1,0,1,0

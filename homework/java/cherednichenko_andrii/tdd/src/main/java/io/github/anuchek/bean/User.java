@@ -4,7 +4,7 @@ public class User {
     private String login;
     private String password;
     private int loginAttempts = 3;
-    private boolean blockesd;
+    private boolean blocked;
 
 
     public User() {
@@ -16,7 +16,7 @@ public class User {
                 "login='" + login + '\'' +
                 ", password='" + password + '\'' +
                 ", loginAttempts=" + loginAttempts +
-                ", blockesd=" + blockesd +
+                ", blockesd=" + blocked +
                 '}';
     }
 
@@ -28,7 +28,7 @@ public class User {
         User user = (User) o;
 
         if (loginAttempts != user.loginAttempts) return false;
-        if (blockesd != user.blockesd) return false;
+        if (blocked != user.blocked) return false;
         if (login != null ? !login.equals(user.login) : user.login != null) return false;
         return password != null ? password.equals(user.password) : user.password == null;
     }
@@ -38,7 +38,7 @@ public class User {
         int result = login != null ? login.hashCode() : 0;
         result = 31 * result + (password != null ? password.hashCode() : 0);
         result = 31 * result + loginAttempts;
-        result = 31 * result + (blockesd ? 1 : 0);
+        result = 31 * result + (blocked ? 1 : 0);
         return result;
     }
 
@@ -66,11 +66,13 @@ public class User {
         this.loginAttempts = loginAttempts;
     }
 
-    public boolean isBlockesd() {
-        return blockesd;
+    public boolean isBlocked() {
+        return blocked;
     }
 
-    public void setBlockesd(boolean blockesd) {
-        this.blockesd = blockesd;
+    public void setBlocked(boolean blocked) {
+        this.blocked = blocked;
     }
+
+
 }

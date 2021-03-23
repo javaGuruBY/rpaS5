@@ -3,7 +3,7 @@ package by.jrr.bean;
 import java.util.Objects;
 
 public class Product {
-
+    
     private String name;
     private double regularPrice;
     private double discount;
@@ -11,15 +11,10 @@ public class Product {
     public Product (String name) {
         this.name = name;
     }
-
+    
     public String getName() {
         return name;
     }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public double getRegularPrice() {
         return regularPrice;
     }
@@ -36,12 +31,19 @@ public class Product {
         this.discount = discount;
     }
 
-    public double actualPrice(double regularPrice, double discount) {
-        double result = regularPrice*(100-discount)/100;
+    public double actualPrice() {
+        double result = this.regularPrice*(100-this.discount)/100;
         System.out.println(result);
         return result;
     }
-
+    
+    public void printInformation() {
+        System.out.println("Product : name = \"" + this.getName() + 
+                 "\", regular price = " + this.getRegularPrice() + 
+                " BYN, discount = " + this.getDiscount() + 
+                "%, actual price = " + this.actualPrice() + " BYN");
+    }
+    
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

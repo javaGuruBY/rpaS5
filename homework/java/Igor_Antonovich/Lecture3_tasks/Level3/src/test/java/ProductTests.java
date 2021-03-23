@@ -21,9 +21,9 @@ public class ProductTests {
     }
 
     @Test
-    public void discountTest() {
+    public void discountCountingTest() {
         Product product = getProduct();
-        double actualResult = product.actualPrice(product.getRegularPrice(),product.getDiscount());
+        double actualResult = product.actualPrice();
 
         Assert.assertEquals(90.0, actualResult, 0.01);
     }

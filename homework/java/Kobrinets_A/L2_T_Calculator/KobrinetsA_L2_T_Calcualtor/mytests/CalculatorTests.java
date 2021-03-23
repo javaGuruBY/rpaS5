@@ -1,6 +1,6 @@
-package by.jrr.start.mytests;
+package KobrinetsA_L2_T_Calcualtor.mytests;
 
-import by.jrr.start.service.Calculator;
+import KobrinetsA_L2_T_Calcualtor.service.Calculator;
 
 public class CalculatorTests {
 

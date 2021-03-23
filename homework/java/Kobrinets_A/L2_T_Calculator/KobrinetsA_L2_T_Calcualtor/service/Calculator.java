@@ -1,4 +1,4 @@
-package by.jrr.start.service;
+package KobrinetsA_L2_T_Calcualtor.service;
 
 public class Calculator {
 

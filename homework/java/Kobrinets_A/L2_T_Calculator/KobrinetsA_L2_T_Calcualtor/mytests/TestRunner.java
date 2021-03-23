@@ -1,4 +1,4 @@
-package by.jrr.start.mytests;
+package KobrinetsA_L2_T_Calcualtor.mytests;
 
 public class TestRunner {
 

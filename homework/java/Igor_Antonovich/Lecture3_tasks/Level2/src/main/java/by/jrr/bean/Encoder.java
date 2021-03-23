@@ -1,15 +1,19 @@
 package by.jrr.bean;
 
-import java.util.Objects;
-
 public class Encoder {
 
     public static char encode(short code) {
-        return (char) code;
+        char result = (char) code;
+        System.out.println(code + " => \'" + result + "\'");
+
+        return result;
     }
 
     public static short decode(char symbol) {
-        return (short) symbol;
+        short result = (short) symbol;
+        System.out.println(symbol + " => \'" + result + "\'");
+
+        return result;
     }
 
 

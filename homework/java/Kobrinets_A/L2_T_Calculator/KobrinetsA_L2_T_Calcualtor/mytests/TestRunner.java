@@ -1,4 +1,4 @@
-package by.jrr.start.mytests;
+package KobrinetsA_L2_T_Calcualtor.mytests;
 
 public class TestRunner {
 
@@ -32,6 +32,16 @@ public class TestRunner {
         try {
             totalTests++;
             calculatorTests.testMult();
+            testsPassed++;
+        } catch (Exception ex) {
+            testsFailed++;
+            System.out.println(ex.getMessage());
+            ex.printStackTrace();
+        }
+
+        try {
+            totalTests++;
+            calculatorTests.testDiv();
             testsPassed++;
         } catch (Exception ex) {
             testsFailed++;

@@ -32,9 +32,23 @@ public class CalculatorTests {
         int expected = 50;
 
         var calculator = new Calculator();
-        int actual = calculator.subs(a, b);
+        int actual = calculator.mult(a, b);
 
         assertEquals(expected, actual, "testMult");
+    }
+
+    public void testDiv()  throws Exception {
+        int a = 5;
+        int b = 10;
+        double expected = 0.5;
+
+        var calculator = new Calculator();
+        double actual = calculator.div(a, b);
+
+        String testName = "testDiv";
+        boolean testResult = expected == actual;
+        System.out.println(testName + " testPassed: " + testResult);
+
     }
 
     private void assertEquals(int expected, int actual, String testSubs) throws Exception {

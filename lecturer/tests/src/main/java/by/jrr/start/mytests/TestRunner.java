@@ -39,6 +39,16 @@ public class TestRunner {
             ex.printStackTrace();
         }
 
+        try {
+            totalTests++;
+            calculatorTests.testDiv();
+            testsPassed++;
+        } catch (Exception ex) {
+            testsFailed++;
+            System.out.println(ex.getMessage());
+            ex.printStackTrace();
+        }
+
         System.out.println("totalTests = " + totalTests);
         System.out.println("testsPassed = " + testsPassed);
         System.out.println("testsFailed = " + testsFailed);

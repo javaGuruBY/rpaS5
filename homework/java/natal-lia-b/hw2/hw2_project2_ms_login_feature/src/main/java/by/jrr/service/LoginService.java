@@ -3,7 +3,7 @@ package by.jrr.service;
 import by.jrr.bean.User;
 
 public class LoginService {
-    public boolean checkUserService(User user, String userInput) {
+    public boolean checkUserPassword(User user, String userInput) {
         return user.getPassword().equals(userInput);
     }
 
@@ -13,6 +13,10 @@ public class LoginService {
 
     public boolean login(User user, String userInput) {
         reduceLoginAttempts(user);
-        return checkUserService(user, userInput);
+        return checkUserPassword(user, userInput);
+    }
+
+    public void blockUser(User user) {
+        user.setBlocked(true);
     }
 }

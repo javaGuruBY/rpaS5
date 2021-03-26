@@ -22,7 +22,6 @@ public class LoginServiceTest {
         this.blockedUser = getBlockedUser();
         Assert.assertEquals(0, blockedUser.getLoginAttempts());
         Assert.assertTrue(blockedUser.isBlocked());
-
     }
 
     @Test
@@ -80,6 +79,39 @@ public class LoginServiceTest {
     @Test
     public void blockedUserLogin_ShouldReturnFalse() {
         boolean actualResult = loginService.login(blockedUser, positiveUserInput);
+        Assert.assertFalse(actualResult);
+    }
+
+    @Test
+    public void restoreAttempts() {
+        user.setLoginAttempts(1);
+        loginService.restoreAttempts(user);
+        Assert.assertEquals(3, user.getLoginAttempts());
+    }
+
+    @Test
+    public void after1Incorrect_shouldRestoreAttepmpts() {
+        loginService.login(user, negativeUserInput);
+        loginService.login(user, positiveUserInput);
+        Assert.assertEquals(3, user.getLoginAttempts());
+    }
+
+    @Test
+    public void after2Incorrect_shouldRestoreAttepmpts() {
+        loginService.login(user, negativeUserInput);
+        loginService.login(user, negativeUserInput);
+        loginService.login(user, positiveUserInput);
+        Assert.assertEquals(3, user.getLoginAttempts());
+    }
+
+    @Test
+    public void after3Incorrect_shouldRestoreAttepmpts() {
+        loginService.login(user, negativeUserInput);
+        loginService.login(user, negativeUserInput);
+        loginService.login(user, negativeUserInput);
+        boolean actualResult = loginService.login(user, positiveUserInput);
+        Assert.assertEquals(0, user.getLoginAttempts());
+        Assert.assertTrue(user.isBlocked());
         Assert.assertFalse(actualResult);
     }
 
